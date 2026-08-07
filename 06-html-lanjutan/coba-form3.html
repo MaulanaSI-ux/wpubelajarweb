@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan Form Select dan Text Area</title>
+  </head>
+  <body>
+    <h3>Pilih Kota :</h3>
+    <form>
+      <select name="kota" id="kota">
+        <option value="">Pilih Salah Satu</option>
+        <option value="bdg">Bandung</option>
+        <option value="ptk" selected>Pontianak</option>
+        <option value="jkt">Jakarta</option>
+        <option value="sby">Surabaya</option>
+      </select>
+      <br />
+
+      <h3>About Me</h3>
+      <textarea
+        name="about"
+        id="about"
+        cols="50"
+        rows="10"
+        placeholder="isi data diri anda..."
+      ></textarea>
+      <br /><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
